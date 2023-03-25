@@ -1,0 +1,106 @@
+:root {
+  // gray
+  --color-g0: #18171C;
+  --color-g1: #23212B;
+  --color-g2: #33303F;
+  --color-g3: #464352;
+  --color-g4: #6F6C7B;
+  --color-g5: #ACAAB3;
+  --color-g6: #C1C0C6;
+  --color-g7: #D0D0D6;
+  --color-g8: #E5E4EB;
+  --color-g9: #EFEEF5;
+  --color-g10: #F9F8FF;
+
+  // black
+  --color-b0: rgba(0, 0, 0, 1);
+  --color-b1: rgba(0, 0, 0, .90);
+  --color-b2: rgba(0, 0, 0, .80);
+  --color-b3: rgba(0, 0, 0, .72);
+  --color-b4: rgba(0, 0, 0, .56);
+  --color-b5: rgba(0, 0, 0, .32);
+  --color-b6: rgba(0, 0, 0, .24);
+  --color-b7: rgba(0, 0, 0, .16);
+  --color-b8: rgba(0, 0, 0, .08);
+  --color-b9: rgba(0, 0, 0, .04);
+  --color-b10: rgba(0, 0, 0, .02);
+
+  // white
+  --color-w0: rgba(255, 255, 255, 1);
+  --color-w1: rgba(255, 255, 255, .9);
+  --color-w2: rgba(255, 255, 255, .8);
+  --color-w3: rgba(255, 255, 255, .72);
+  --color-w4: rgba(255, 255, 255, .56);
+  --color-w5: rgba(255, 255, 255, .32);
+  --color-w6: rgba(255, 255, 255, .24);
+  --color-w7: rgba(255, 255, 255, .16);
+  --color-w8: rgba(255, 255, 255, .08);
+  --color-w9: rgba(255, 255, 255, .04);
+  --color-w10: rgba(255, 255, 255, .02);
+
+  // ranbow
+  --color-barley: #FFDD5C;
+  --color-barley-dark: #F4D045;
+  //
+  --color-cobalt: #6275F5;
+  --color-cobalt-dark: #5063E7;
+  //
+  --color-jam: #C673F5;
+  --color-jam-dark: #B561E4;
+  //
+  --color-leaves: #54CD7A;
+  --color-leaves-dark: #329A53;
+  //
+  --color-lipstick: #FF6E6E;
+  --color-lipstick-dark: #E85858;
+  //
+  --color-orange: #FFB670;
+  --color-orange-dark: #EEA55D;
+  //
+  --color-sky: #50C7E7;
+  --color-sky-dark: #48B5D2;
+
+  // use
+  --textColor-main: var(--color-g8);
+  --textColor-main-rgba: var(--color-w2);
+  --textColor-sec: var(--color-g5);
+  --textColor-sec-rgba: var(--color-w4);
+  --textColor-neg: var(--color-g4);
+  --textColor-neg-rgba: var(--color-w5);
+
+  // statueColor
+  --statueColor-normal: rgba(0, 0, 0, 0);
+  --statueColor-hover: var(--color-f9);
+  --statueColor-active: var(--color-f8);
+
+  // bg-color
+  --bgColor-light: var(--color-g1);
+  --bgColor-dark: var(--color-g0);
+}
+
+
+html {
+  background-color: black;
+  color: var(--textColor-main-rgba);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

@@ -1,0 +1,134 @@
+.bulb {
+  position: relative;
+  width: 16px;
+  height: 16px;
+
+  cursor: pointer;
+
+  --bulbColor: var(--color-g3);
+
+  .notch {
+    position: absolute;
+    border-radius: 1000px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-b4);
+  }
+
+  .bg {
+    position: absolute;
+    border-radius: 1000px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+    width: 8px;
+    height: 8px;
+    background-color: var(--bulbColor);
+  }
+
+  .bgShadow {
+    position: absolute;
+    border-radius: 1000px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-b5);
+  }
+
+  .roof {
+    position: absolute;
+    border-radius: 1000px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: calc(50% - 1px);
+
+    width: 8px;
+    height: 8px;
+    background-color: var(--bulbColor);
+
+    .roofBorder {
+      position: absolute;
+      border-radius: 1000px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+
+      width: 8px;
+      height: 8px;
+      border: 1px solid var(--color-w7);
+    }
+
+    .roofStatue {
+      position: absolute;
+      border-radius: 1000px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+  &:hover {
+    .roofStatue {
+      background-color: var(--color-w9);
+    }
+  }
+
+  &:active {
+    .roof {
+      top: 50%;
+    }
+  }
+
+  &.activated {
+    --bulbColor: var(--color-leaves);
+
+    .light1 {
+      position: absolute;
+      border-radius: 1000px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+
+      width: 16px;
+      height: 16px;
+      background-color: var(--bulbColor);
+      opacity: 0.16;
+    }
+
+    .light2 {
+      position: absolute;
+      border-radius: 1000px;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+
+      width: 12px;
+      height: 12px;
+      background-color: var(--bulbColor);
+      opacity: 0.16;
+    }
+
+    &:active {
+      .light1 {
+        width: 14px;
+        height: 14px;
+      }
+
+      .light2 {
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
+}

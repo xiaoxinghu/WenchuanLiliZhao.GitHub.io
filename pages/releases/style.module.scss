@@ -1,0 +1,9 @@
+.versionHistoryBox {
+  border-top: 1px dashed var(--color-w7);
+  display: grid;
+  // grid-template-columns: 320px auto;
+
+  h2 {
+    color: var(--color-leaves);
+  }
+}

@@ -1,14 +1,15 @@
-# LiliZhao.GitHub.io
+## Getting Started
 
-```
-npm create vite@latest
-```
 
-```
-cd react-app
-npm install
-npm run dev
+To install dependencies. (one off)
+```bash
+yarn
 ```
 
-https://stackoverflow.com/questions/70231331/github-pages-page-not-found-for-react-app
+ Run the development server:
 
+```bash
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
